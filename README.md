@@ -62,12 +62,6 @@ ERP Diagram link: https://i.postimg.cc/CLxqpqMq/ERP.png
 - Measurable insights into the effectiveness of the Loyalty Program.  
 - Actionable strategies to enhance customer loyalty and drive business growth.  
 
----
-
-## GitHub Repository
-
-You can explore the database setup, queries, and insights in the GitHub repository:  
-[Mr. Xi Restaurant Case Study](https://lnkd.in/gNWi754m)
 
 ---
 
