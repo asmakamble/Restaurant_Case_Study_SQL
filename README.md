@@ -52,6 +52,7 @@ The data model consists of three primary tables:
 3. **Menu**: Lists menu items and pricing.  
 
 An ERD has been created to visualize the relationships between these tables.
+ERP Diagram link: https://i.postimg.cc/CLxqpqMq/ERP.png
 
 ---
 
