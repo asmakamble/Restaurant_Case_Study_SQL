@@ -9,22 +9,22 @@ drop table if exists sales,
 					 members;
     
 create table menu (
-	product_id 		int 		not null,
+    product_id 		int 		not null,
     product_name 	varchar(5) 	not null,
-    price 			int 		not null,
+    price 			int 	not null,
     primary key(product_id)
     );
     
 create table members (
-	customer_id 	varchar(1) 		not null,
-    join_date 		timestamp    	not null,
+    customer_id 	varchar(1) 	not null,
+    join_date 		timestamp       not null,
     primary key (customer_id)
     );
     
 create table sales (
-	customer_id 	varchar(1)  	not null,
-    order_date  	date 			not null,
-    product_id  	int  			not null,
+    customer_id 	varchar(1)  	not null,
+    order_date  	date 		not null,
+    product_id  	int  		not null,
     foreign key(customer_id) references members (customer_id) ON DELETE CASCADE,
     foreign key(product_id) references menu (product_id) ON DELETE CASCADE
     );
